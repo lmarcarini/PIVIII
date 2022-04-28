@@ -39,6 +39,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Piviii"
+run/main_scene="res://scenes/Level_TirarLixo/Level_TirarLixo.tscn"
 config/icon="res://icon.png"
 
 [autoload]
@@ -50,7 +51,7 @@ RestHandler="*res://addons/github-integration/scenes/RestHandler.tscn"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/github-integration/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/github-integration/plugin.cfg", "res://addons/gut/plugin.cfg" )
 
 [physics]
 
